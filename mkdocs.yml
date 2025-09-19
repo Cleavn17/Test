@@ -38,11 +38,10 @@ plugins:
 nav:
   - Home: index.md
   - Departments:
-      - AI: departments/ai.md
-      - Perception: departments/perception.md
-      - Control: departments/control.md
       - Perception:
-            - hi: departments/Perception/hi.md
+            - Overview: departments/perception/overview.md
+            - Theory: departments/perception/theory.md
+      - Control: departments/control.md
   - Tutorials:
       - LiDAR Setup: tutorials/lidar-setup.md
       - YOLO Training: tutorials/yolo-training.md

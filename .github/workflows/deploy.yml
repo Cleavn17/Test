@@ -2,7 +2,7 @@ name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
-    branches: [ master ]    # change if your default branch is different
+    branches: [ main ]    # change if your default branch is different
   workflow_dispatch:
 
 permissions:

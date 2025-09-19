@@ -1,4 +1,8 @@
-# Perception 
+---
+title: Perception
+---
+
+## Perception 
 
 - Perception is at the heart of any autonomous system. Before the car can decide where to go, it needs to see the world around it. The perception team aims to do just that. Through a variety of sensors and ingenious algorithms, we allow the car to see and understand the world around it.
 
@@ -9,10 +13,6 @@
 - **Sensor Inputs**: ZED2 Camera
 - This was our first year competing at FSUK. The approach was based on the RGB + XYZ (color + position / depth) point cloud data that could be obtained from the ZED2 camera. The idea was that we would perform some kind of segmentation of the pixels in the image corresponding to cones. segment them into clusters corresponding to cones, and then average the position values of cluster to obtain a mean position value for the cone.
 - This code is all stored in the [fta_perception_ros](https://github.com/FT-Autonomous/fta_perception_ros/) repository. Today, most of it is deprecated and is only useful in the sense that you can see some examples of how to use the stereolabs SDK. The only part that is kind of still in use is [ft_cluster_cpp](https://github.com/FT-Autonomous/fta_perception_ros/blob/main/src/ft_cluster_cpp/). This is a GPU accelerated clustering algorithm that can be used to divide an unordered array of points into discrete sub arrays based on pairwise distances between points (you can read about clustering algorithms [here](https://machinelearningmastery.com/clustering-algorithms-with-python/)).
-  
-
-##### Efefe
-efefefefefe efefefef
 
 #### 2022/2023
 
