@@ -1,0 +1,61 @@
+
+site_name: "Formula Trinity Autonomous Wiki"
+site_url: "https://docs.formulatrinity.ie"
+theme:
+  name: material
+#   logo: images/logo.png
+  features:
+    - navigation.expand
+    - navigation.sections
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+  palette:
+    scheme: ft-dark
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Departments:
+      - AI: departments/ai.md
+      - Perception: departments/perception.md
+      - Control: departments/control.md
+      - Perception:
+            - hi: departments/Perception/hi.md
+  - Tutorials:
+      - LiDAR Setup: tutorials/lidar-setup.md
+      - YOLO Training: tutorials/yolo-training.md
+  - Equipment:
+      - Jetson Orin: equipment/jetson-orin.md
+      - Velodyne LiDAR: equipment/velodyne.md
+  - Resources:
+      - Rules: resources/rules.md
+      - Datasets: resources/datasets.md
+  - Guidelines:
+      - Coding: guidelines/coding.md
+      - Documentation: guidelines/documentation.md
+
+extra_css:
+  - overrides/styles.css
+

@@ -1,0 +1,3 @@
+# Competition Rules
+
+Key rules.
