@@ -1,14 +1,10 @@
----
-title: Perception
----
-
-## Perception 
+# Overview 
 
 - Perception is at the heart of any autonomous system. Before the car can decide where to go, it needs to see the world around it. The perception team aims to do just that. Through a variety of sensors and ingenious algorithms, we allow the car to see and understand the world around it.
 
-### Previous Implementations
+## Previous Implementations
 
-#### 2021/2022
+### 2021/2022
 
 - **Sensor Inputs**: ZED2 Camera
 - This was our first year competing at FSUK. The approach was based on the RGB + XYZ (color + position / depth) point cloud data that could be obtained from the ZED2 camera. The idea was that we would perform some kind of segmentation of the pixels in the image corresponding to cones. segment them into clusters corresponding to cones, and then average the position values of cluster to obtain a mean position value for the cone.

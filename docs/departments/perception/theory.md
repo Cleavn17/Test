@@ -1,5 +1,4 @@
-
-## Perception Theory
+# Perception Theory
 - This section covers the theoretical aspects of the Perception department.
 - Detailed explanations of algorithms and methodologies used.
 - Research papers and references.
@@ -10,7 +9,7 @@ At the heart of any autonomous vehicle system, the Perception module enables it 
 The Perception module processes raw sensor data to generate a coherent representation of the environment, allowing the vehicle to interpret its surroundings in real time. In FSAI, this means identifying cones on the track, determining their color, and pinpointing their 3D positions relative to the vehicle.
 
 
-![Cone map](media/wlco.png)
+<!-- ![Cone map](media/wlco.png) -->
 
 
 ### Perception Workflow in FSAI
