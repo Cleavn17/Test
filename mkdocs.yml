@@ -6,7 +6,7 @@ theme:
   name: material
 #   logo: images/logo.png
   features:
-    - navigation.expand
+    # - navigation.expand
     - navigation.sections
     - content.code.copy
     - content.code.annotate
