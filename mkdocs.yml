@@ -41,10 +41,10 @@ nav:
       - Perception:
             - Overview: departments/perception/overview.md
             - Theory: departments/perception/theory.md
-      - Control: departments/control.md
   - Tutorials:
       - LiDAR Setup: tutorials/lidar-setup.md
       - YOLO Training: tutorials/yolo-training.md
+      - Webpage Setup: tutorials/webpage_setup.md
   - Equipment:
       - Jetson Orin: equipment/jetson-orin.md
       - Velodyne LiDAR: equipment/velodyne.md
